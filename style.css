@@ -120,3 +120,24 @@ label i {
     display: none;
 }
 
+@media only screen and (max-width:768px),
+(max-width:481px) {
+    .buttons .button {
+        font-size: 12px;
+    }
+
+    .products .box {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .products .box {
+        width: 100%;
+    }
+}
+@media only screen and (min-width:1440px) {
+    .products .box {
+        width: 25%;
+    }
+}
